@@ -1,0 +1,25 @@
+{
+  "appName": "Components",
+  "routes": [
+    {
+      "path": "alert",
+      "icon": "add_alert",
+      "text": "Alerts"
+    },
+    {
+      "path": "avatar",
+      "icon": "accessibility",
+      "text": "Avatars"
+    },
+    {
+      "path": "card",
+      "icon": "folder_open",
+      "text": "Cards"
+    },
+    {
+      "path": "animated-container",
+      "icon": "donut_large",
+      "text": "Animated Container"
+    }
+  ]
+}
