@@ -25,6 +25,16 @@
       "path": "inputs",
       "icon": "input",
       "text": "Inputs"
+    },
+    {
+      "path": "sliders",
+      "icon": "tune",
+      "text": "Sliders - Checks"
+    },
+    {
+      "path": "lists",
+      "icon": "list",
+      "text": "Lists - Scroll"
     }
   ]
 }

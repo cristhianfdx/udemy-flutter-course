@@ -101,7 +101,6 @@ class _InputPageState extends State<InputPage> {
       controller: _inputFieldDateController,
       decoration: InputDecoration(
           border: OutlineInputBorder(borderRadius: BorderRadius.circular(20.0)),
-          counter: Text('Letters: ${_password.length}'),
           hintText: 'Birthdate',
           labelText: 'Birthdate',
           helperText: 'Write your birthdate',

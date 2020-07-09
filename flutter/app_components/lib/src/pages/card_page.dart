@@ -14,9 +14,6 @@ class CardPage extends StatelessWidget {
           SizedBox(height: 30.0),
           _cardTypeTwo(),
           SizedBox(height: 30.0),
-          _cardTypeOne(),
-          SizedBox(height: 30.0),
-          _cardTypeTwo(),
         ],
       ),
     );
@@ -68,7 +65,7 @@ class CardPage extends StatelessWidget {
                     height: 250.0,
                     fit: BoxFit.cover,
                     placeholder:
-                        AssetImage('resources/assets/img/jar-loading.gif'),
+                        AssetImage('resources/assets/img/cat.gif'),
                     image: NetworkImage(
                         'https://www.tom-archer.com/wp-content/uploads/2018/06/milford-sound-night-fine-art-photography-new-zealand.jpg')),
                 Container(
