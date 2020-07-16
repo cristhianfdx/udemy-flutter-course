@@ -10,6 +10,8 @@ class Movies {
 }
 
 class Movie {
+  String uuid;
+
   double popularity;
   int voteCount;
   bool video;
@@ -62,6 +64,12 @@ class Movie {
   String getPosterImage() {
     return posterPath != null
         ? 'https://image.tmdb.org/t/p/w500/$posterPath'
+        : 'https://ciat.cgiar.org/wp-content/uploads/image-not-found.png';
+  }
+
+  String getBackgroundImage() {
+    return posterPath != null
+        ? 'https://image.tmdb.org/t/p/w500/$backdropPath'
         : 'https://ciat.cgiar.org/wp-content/uploads/image-not-found.png';
   }
 }
